@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "making task manager to learn about nodejs and expressjs",
   "main": "index.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node app.js"
   },
   "author": "riya",
   "license": "ISC",
