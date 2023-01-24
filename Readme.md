@@ -2,12 +2,13 @@
 In this project , learning to connect server with the database.
 
 <!-- used tech stack -->
-server side language - nodejs
-middleware - expressjs
-database - mongodb and (mongoose package)
-database platform - mongodb Atlas
-
-and all the methods are tested in postmanAPI
+<ul>
+<li>server side language - nodejs </li></br>
+<li>middleware - expressjs </li></br>
+<li>database - mongodb and (mongoose package)</li> </br>
+<li>database platform - mongodb Atlas </li></br>
+<li>and all the methods are tested in postmanAPI </li></br>
+</ul>
 
 
 <!-- about each files -->
