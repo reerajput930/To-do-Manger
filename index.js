@@ -27,7 +27,7 @@ app.use('/api/v1/tasks',tasks)
 // that means after connecting to database
 const start = async()=>{
     try {
-         await connectDB(process.env.MONGO_URI)
+         await connectDB(`mongodb+srv://${process.env.dbusername}:${process.env.dbpassword}@nodeexpress-project.i1wimde.mongodb.net/toDoManager?retryWrites=true&w=majority `)
          app.listen(port,()=>{
             console.log(`listening .....at port ${port}`)
         })
@@ -37,4 +37,3 @@ const start = async()=>{
 }
 
 start()
-
